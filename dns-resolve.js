@@ -17,6 +17,6 @@ const dns = require('dns')
 
 let rrtype = 'A'
 
-dns.resolve('unipune.ac.in', rrtype, (error, records)=>{
+dns.resolve('unipune.ac.in', rrtype, (error, records) => {
     console.log('records: %j', records)
 })

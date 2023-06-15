@@ -2,5 +2,5 @@
 
 const { Buffer } = require('buffer');
 
-let text = Buffer.alloc(8, 'vikas')
+let text = Buffer.alloc(10, 'vikas')
 console.log(text.toString())

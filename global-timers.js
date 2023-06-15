@@ -6,6 +6,6 @@ function timer() {
 }
 
 setTimeout(() => {
-    console.log('This message appears after 3 seconds')
+    console.log('This message appears after 5 seconds')
     clearInterval(time)
-}, 3000)
+}, 5000)

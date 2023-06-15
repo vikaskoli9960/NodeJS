@@ -1,6 +1,6 @@
 
 const assert = require('assert')
-let x = 9, y = 10
+let x = 10, y = 10
 
 try {
     assert(x == y)
